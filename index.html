@@ -4,50 +4,121 @@
 <head>
     <meta charset="UTF-8">
     <title>WEBSITE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
-    <div class="container">
-        <header>
-            <img src="img/img/xploreme-logo.png" alt="sample image" width="250">
-            <div class="menu-list">
-                    <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>DESTINATIONS</li>
-                    <li>HELP</li>
-                    <li></li>
-                    <li></li>
+
+    <header class="clear">
+        <div class="container">
+
+            <img class="img-left" src="img/img/xploreme-logo.png" alt="sample image" width="250">
+
+            <nav class="menu-right">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li class="link-action"><a href="#"><i class="zmdi zmdi-hc-fw zmdi-email"></i></a></li>
+                    <li class="user-action"><a href="#"><img src="img/img/avatar/mika.jpg" alt="Pa Bebe" width="35" class="img-circle"><span>Pa Bebe</span></a></li>
                 </ul>
+            </nav>
+        </div>
+    </header>
+
+        <div class="img-slide">
+            <div class="slide" style="background: url('img/img/slide3.jpg') no-repeat center center fixed; background-size: cover"></div>
+            <div class="slide-content">
+                <div class="container">
+                    <div class="slide-description">
+                        <ul>
+                            <li><span>10</span>Destinations</li>
+                            <li><span>99</span>Travel Heroes</li>
+                            <li><span>9</span>Adventurers</li>
+                        </ul>
+                        <h1>EXPLORE PHILIPPINES</h1>
+                        <p>The Philippines is a Southeast Asian country in the Western Pacific, comprising more than 7,000 islands. Its sprawling capital, Manila, is famous for its waterfront promenade and centuries-old Chinatown.</p>
+                        <button class="btn">Check Location</button>
+                    </div>
+
+                    <div class="slide-control">
+                        <div class="panel">
+                            <span class="panel-header">SEARCH FOR YOUR NEXT ADVENTURE</span>
+                            <div class="input-group">
+                                <input type="text" placeholder="Ex. Philippines"><button class="btn">SEARCH</button>
+                            </div>
+                        </div>
+
+                        <div class="panel">
+                            <span class="panel-header">FEATURED TRAVEL HEROES</span>
+                            <ul class="travel-heroes">
+                            <li><img class="img-circle"src="img/img/avatar/avatar1.png" alt="heroes" width="40"></li>
+                            <li><img class="img-circle"src="img/img/avatar/avatar2.png" alt="heroes" width="40"></li>
+                            <li><img class="img-circle"src="img/img/avatar/avatar3.png" alt="heroes" width="40"></li>
+                            <li><img class="img-circle"src="img/img/avatar/avatar4.png" alt="heroes" width="40"></li>
+                            <li><img class="img-circle"src="img/img/avatar/avatar5.png" alt="heroes" width="40"></li>
+                            <li><img class="img-circle"src="img/img/avatar/avatar6.png" alt="heroes" width="40"></li>
+                            <li><img class="img-circle"src="img/img/avatar/avatar7.png" alt="heroes" width="40"></li>
+                            <li><img class="img-circle"src="img/img/avatar/avatar8.png" alt="heroes" width="40"></li>
+                            <li><img class="img-circle"src="img/img/avatar/avatar9.png" alt="heroes" width="40"></li>
+                            <li><img class="img-circle"src="img/img/avatar/avatar10.png" alt="heroes" width="40"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="icon-mail">
+        </div>
+        <div class="feature-panel" style="background: url('img/img/landing-box-1-bg.jpg') top no-repeat;">
+            <div class="container">
+                <div class="feature-container">
+                <h3 class="txt-uppercase">HOW IT WORKS?</h3>
+                <p>Register your interest and create a profile. Connect with people with the same interest and establish friendship. Explore culture, nature and places of interests with your travel buddies. Go on adventures with your new found friends.</p>
+                <p>X-plore. Me offers variety of adventures on every travel destination that you desire. USING THE x-plore.me platform you can connect with Travel Heroes and co-Adventurer, and explore the different culture in each traveld destination. X-plore.Me is a free community based application that explorer can use in searching for their next adventure.</p>
+                <button class="btn">View Details</button>
             </div>
-        </header>
-
-        <div class="content1">
-            <img src="img/img/slide3.jpg" alt="sample image">
         </div>
-
-        <div class="content2">
-         <img src="img/img/landing-box-1-bg.jpg" alt="sample image">
-
-        </div>
-
-        <div class="content3">
-         <img src="img/img/landing-box-2-bg.jpg" alt="sample image">
-        </div>
-
-         <div class="content4">
-         <img src="img/img/subscription-bg.jpg" alt="sample image">
-        </div>
-
-        <footer>
-            <div class="footer">
-            <p>@2015 XPLORE.ME</p>
-            </div>
-        </footer>
     </div>
+    <div class="feature-panel left" style="background: url('img/img/landing-box-2-bg.jpg') top no-repeat;">
+        <div class="container">
+            <div class="feature-container">
+                <div class="feature-content">
+                    <h3 class="txt-uppercase">WHY X-PLORE.ME?</h3>
+                    <p>Our vision is to establish a secure a friendly secure community for Travel Heroes and Adventurers around the world while giving opportunities to the local communities to create livelihood and promote progress.</p>
+                    <p>At X-plore.Me we engage local communities to promote cultural exchange and we believe by creating the flatform we can build a strong community of Adventurers and travellers to able to connect with the travel Heroes.</p>
+                    <p>The team are adventure enthusiasts that keep on finding new place to explore and we want to share what we have experience in our adventures.</p>
+                    <button class="btn">View Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscription">
+        <div class="container">
+            <h3>SUBSCRIBE AND LET'S EXPLORE TOGETHER!</h3>
+            <p class="description">Get exclusive updates and news about the new travel location and new travel heroes by subscribing to our website. Monthly emails will be automatically sent to your inbox for every important updates we are going to have! Just key-in your email address and wait for the monthly updates.</p>
+            <div class="input-group">
+                <input type="text"
+                style="width: 400px"
+                placeholder="Email Address"><button disabled class="btn">Submit</button>
+            </div>
+        </div>
+    </div>
+
+<footer class="clear">
+    <div class="container">
+        <p>@XPLORE.ME</p>
+        <ul class="social-media-icons">
+            <li><a href=""><i class="zmdi zmdi-facebook"></i></a></li>
+            <li><a href=""><i class="zmdi zmdi-twitter"></i></a></li>
+            <li><a href=""><i class="zmdi zmdi-instagram"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
 </body>
 </html>
